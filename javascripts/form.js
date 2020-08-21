@@ -25,7 +25,6 @@ const getValues = () => {
     bears.push(bear);
     bearCard(bears);
     clearForm();
-    console.log(bears);
   });
 };
 
