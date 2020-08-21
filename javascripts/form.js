@@ -1,3 +1,5 @@
+import { bearCard } from './river.js';
+
 const bears = [];
 
 const createForm = () => {
@@ -15,14 +17,17 @@ const clearForm = () => {
 
 const getValues = () => {
   $("#submit").click(() => {
+    
     let bear = {};
     bear.bearName = $("#bearNameInput").val();
     bear.bearImage = $("#bearImageInput").val();
 
     bears.push(bear);
+    bearCard(bears);
     clearForm();
     console.log(bears);
   });
 };
+
 
 export { createForm, getValues };
