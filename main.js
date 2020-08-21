@@ -1,8 +1,8 @@
-import { createForm, getValues } from './javascripts/form.js';
+import { createForm, getValues } from "./javascripts/form.js";
 
 const init = () => {
-    createForm();
-    getValues();
+  createForm();
+  getValues();
 };
 
 init();
