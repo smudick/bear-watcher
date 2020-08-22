@@ -1,4 +1,4 @@
-import { bearCard } from './river.js';
+import { bearCard, buttonClicks } from './river.js';
 
 const bears = [];
 
@@ -24,6 +24,7 @@ const getValues = () => {
 
     bears.push(bear);
     bearCard(bears);
+    buttonClicks(bears);
     clearForm();
   });
 };
