@@ -9,3 +9,5 @@ This site's purpose is to provide bear watching enthusiasts a place where they c
 ### Wireframes can be found <a href="https://www.figma.com/file/OzaR4L9eV1ZEauPU5VxPIa/Bear-Watcher?node-id=0%3A1">here</a>
 
 ### Link to the site <a href="https://smbearwatcher.netlify.app/">Here</a>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/91272eb1-5f15-4772-8179-9eaa14c02703/deploy-status)](https://app.netlify.com/sites/smbearwatcher/deploys)
