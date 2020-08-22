@@ -43,9 +43,16 @@ nav {
     color: #997255;
     border: #997255 1px solid;
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .bear-pic {
     height: 250px;
+}
+.timestamp-attempt {
+    font-size: 12px;
+}
+.timestamp-caught {
+    font-size: 12px;
+    color: green;
 }
