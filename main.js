@@ -1,4 +1,4 @@
-import { createForm, getValues } from "./javascripts/form.js";
+import { createForm, getValues } from "./javascripts/bearForm.js";
 
 const init = () => {
   createForm();

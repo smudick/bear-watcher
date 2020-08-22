@@ -1,0 +1,47 @@
+body {
+    font-family: 'Cabin Sketch', cursive;
+    background-color: #CDCDCD;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #997255;
+    text-transform: uppercase;
+    
+}
+
+.title, title:hover {
+    color: white;
+
+}
+
+.submit {
+    background-color: #997255;
+    color: white;
+    border: none;
+}
+.submit:hover, .submit:focus, .submit:active {
+    background-color: #7c5d45;
+}
+
+.form-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 1em;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 2em;
+    background-color: #3A3235;
+}
+
+.bear-card {
+    color: #997255;
+    border: #997255 1px solid;
+    text-transform: capitalize;
+    font-size: 30px;
+}
